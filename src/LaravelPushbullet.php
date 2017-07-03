@@ -1,4 +1,4 @@
-<?php namespace Lahaxearnaud\LaravelPushbullet;
+<?php namespace rpsimao\LaravelPushbullet;
 
 use Illuminate\Support\Collection;
 use PHPushbullet\PHPushbullet;
@@ -7,7 +7,7 @@ class LaravelPushbullet extends PHPushbullet {
 
     public function __construct($access_token = null)
     {
-        parent::__construct($access_token, null, ['verify' => false]);
+        parent::__construct($access_token);
     }
 
 

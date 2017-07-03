@@ -1,13 +1,12 @@
 {
-    "name": "lahaxearnaud/laravel-pushbullet",
-    "description": "Laravel integration of joetannenbaum/phpushbullet",
-    "description": "PushBullet library for Laravel.",
+    "name": "rpsimao/laravel-pushbullet",
+    "description": "Fork of Laravel integration of joetannenbaum/phpushbullet",
     "keywords": ["pushbullet", "laravel", "notification"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Arnaud Lahaxe",
-            "email": "lahaxe.arnaud@gmail.com"
+            "name": "Ricardo Simão",
+            "email": "ricardo.simao@upgrade.pt"
         }
     ],
     "require": {
@@ -17,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Lahaxearnaud\\LaravelPushbullet\\": "src/"
+            "rpsimao\\LaravelPushbullet\\": "src/"
         }
     },
     "minimum-stability": "stable"

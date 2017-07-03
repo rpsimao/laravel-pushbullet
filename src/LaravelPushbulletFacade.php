@@ -1,4 +1,4 @@
-<?php namespace Lahaxearnaud\LaravelPushbullet;
+<?php namespace rpsimao\LaravelPushbullet;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,10 +1,10 @@
 # Laravel-PushBullet
 
+Fork of https://github.com/lahaxearnaud/laravel-pushbullet
+ 
 This package is an integration of `joetannenbaum/phpushbullet` library in Laravel 5.
 
-## Looking for a Laravel 4 version?
 
-Use the [0.2 branch](https://github.com/lahaxearnaud/laravel-pushbullet/tree/v0.2) for Laravel 4 compatability.
 
 ## Table of Contents
 
@@ -27,7 +27,7 @@ Use the [0.2 branch](https://github.com/lahaxearnaud/laravel-pushbullet/tree/v0.
 ```
 {
     "require": {
-        "lahaxearnaud/laravel-pushbullet": "~1.0"
+        "rpsimao/laravel-pushbullet": "~1.0"
     }
 }
 ```
@@ -38,7 +38,7 @@ Add provider in your `app.php`
 ```
 'providers' => array(
     //...
-    'Lahaxearnaud\LaravelPushbullet\LaravelPushbulletServiceProvider',
+    'rpsimao\LaravelPushbullet\LaravelPushbulletServiceProvider',
 ),
 
 ```
@@ -49,7 +49,7 @@ Add facade in your `app.php`
 ```
 'aliases' => array(
     //...
-    'PushBullet'        => 'Lahaxearnaud\LaravelPushbullet\LaravelPushbulletFacade',
+    'PushBullet'        => 'rpsimao\LaravelPushbullet\LaravelPushbulletFacade',
 ),
 
 ```
