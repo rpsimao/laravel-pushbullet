@@ -1,4 +1,6 @@
-<?php namespace rpsimao\LaravelPushbullet;
+<?php
+
+namespace rpsimao\LaravelPushbullet;
 
 use Illuminate\Support\Collection;
 use PHPushbullet\PHPushbullet;

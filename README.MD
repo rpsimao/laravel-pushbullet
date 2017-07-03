@@ -38,7 +38,7 @@ Add provider in your `app.php`
 ```
 'providers' => array(
     //...
-    'rpsimao\LaravelPushbullet\LaravelPushbulletServiceProvider',
+    rpsimao\LaravelPushbullet\LaravelPushbulletServiceProvider::class,
 ),
 
 ```
@@ -49,7 +49,7 @@ Add facade in your `app.php`
 ```
 'aliases' => array(
     //...
-    'PushBullet'        => 'rpsimao\LaravelPushbullet\LaravelPushbulletFacade',
+    'PushBullet'        => rpsimao\LaravelPushbullet\LaravelPushbulletFacade::class,
 ),
 
 ```
