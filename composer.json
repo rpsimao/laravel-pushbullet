@@ -18,6 +18,5 @@
         "psr-4": {
             "rpsimao\\LaravelPushbullet\\": "src/"
         }
-    },
-    "minimum-stability": "stable"
+    }
 }
