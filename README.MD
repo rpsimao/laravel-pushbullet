@@ -27,7 +27,7 @@ This package is an integration of `joetannenbaum/phpushbullet` library in Larave
 ```
 {
     "require": {
-        "rpsimao/laravel-pushbullet": "~1.0"
+        "rpsimao/laravel-pushbullet": "~2.0"
     }
 }
 ```
@@ -49,7 +49,7 @@ Add facade in your `app.php`
 ```
 'aliases' => array(
     //...
-    'PushBullet'        => rpsimao\LaravelPushbullet\LaravelPushbulletFacade::class,
+    'PushBullet' => rpsimao\LaravelPushbullet\LaravelPushbulletFacade::class,
 ),
 
 ```
